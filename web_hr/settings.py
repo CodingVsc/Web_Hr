@@ -54,10 +54,10 @@ WSGI_APPLICATION = 'web_hr.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'web_hr',
+        'NAME': 'service',
         'USER': 'postgres',
         'PASSWORD': '1337',
-        'HOST': 'localhost',
+        'HOST': 'service_db',
         'PORT': '5432',
     }
 }
