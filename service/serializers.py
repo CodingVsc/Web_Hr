@@ -7,14 +7,14 @@ class JobSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Job
-        fields = ('job_type',)
+        fields = ('job_type', 'id')
 
 
 class GradeSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Grade
-        fields = ('grade_type',)
+        fields = ('grade_type', 'id')
 
 
 class HrQuestionsSerializer(serializers.ModelSerializer):
